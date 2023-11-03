@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f9f1ddc8-a714-4363-80f6-1c5ce9aec1f7" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +13,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2VpQUHnEnx11xnol4JGv6xwcii9" />
   <component name="ProjectViewState">
@@ -27,8 +34,65 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.天翼云登录">
+    <configuration name="娱乐指数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/基础爬虫/娱乐指数.js" working-dir="$PROJECT_DIR$/基础爬虫">
+      <method v="2" />
+    </configuration>
+    <configuration name="天翼云.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS逆向/(1)天翼云/天翼云.js" working-dir="$PROJECT_DIR$/JS逆向/(1)天翼云">
+      <method v="2" />
+    </configuration>
+    <configuration name="天翼云登录" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JS逆向/(1)天翼云" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JS逆向/(1)天翼云/天翼云登录.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="芒果tv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonSpider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,10 +117,14 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.天翼云登录" />
+        <item itemvalue="Python.text" />
+        <item itemvalue="Node.js.娱乐指数.js" />
         <item itemvalue="Python.芒果tv" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,31 +139,22 @@
       <workItem from="1695530761945" duration="17000" />
       <workItem from="1695535232929" duration="33000" />
       <workItem from="1695543748075" duration="49000" />
+      <workItem from="1695555632992" duration="1004000" />
+      <workItem from="1695651470958" duration="11000" />
+      <workItem from="1695711540845" duration="2000" />
+      <workItem from="1695969634339" duration="1045000" />
+      <workItem from="1697800974315" duration="2166000" />
+      <workItem from="1698932066254" duration="6307000" />
+      <workItem from="1698938454924" duration="859000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1478" height="208" key="GridCell.Tab.0.bottom" timestamp="1695543796713">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1695543796713" />
-    <state width="1478" height="208" key="GridCell.Tab.0.center" timestamp="1695543796713">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1695543796713" />
-    <state width="1478" height="208" key="GridCell.Tab.0.left" timestamp="1695543796713">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1695543796713" />
-    <state width="1478" height="208" key="GridCell.Tab.0.right" timestamp="1695543796713">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1695543796713" />
+    <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonSpider$tv.coverage" NAME="芒果tv Coverage Results" MODIFIED="1695543760067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础爬虫/3-芒果tv" />
+    <SUITE FILE_PATH="coverage/PythonSpider$tv.coverage" NAME="芒果tv Coverage Results" MODIFIED="1695970901635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础爬虫/3-芒果tv" />
+    <SUITE FILE_PATH="coverage/PythonSpider$text.coverage" NAME="text Coverage Results" MODIFIED="1698939039611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonSpider$.coverage" NAME="天翼云登录 Coverage Results" MODIFIED="1698939241013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JS逆向/(1)天翼云" />
   </component>
 </project>
