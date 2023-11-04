@@ -1,7 +1,7 @@
 import requests
 import ddddocr
 from lxml import etree
-
+import execjs
 if __name__ == '__main__':
     cookies = {
         'kefu': '0',
@@ -39,8 +39,38 @@ if __name__ == '__main__':
     with open('../code.jpg', 'wb') as fp:
         fp.write(code_data)
     # 解析验证码
-    ocr = ddddocr.DdddOcr()
+    ocr = ddddocr.DdddOcr(show_ad=False)
     with open('../code.jpg', 'rb') as f:
         img_bytes = f.read()
     res = ocr.classification(img_bytes) # 解析到的验证码数据
-    print(res)
+
+
+
+    cookies = {
+        'kefu': '0',
+        'JSESSIONID': '3C8AC7697F19629285886CB47564E8A6',
+        'imgBizId': 'a6c070baed49474bbd77e21956e897e9',
+        'Hm_lvt_8fa6fa4b380c606c30da0abb5564a354': '1697698932,1697780850,1699082731',
+        'Hm_lpvt_8fa6fa4b380c606c30da0abb5564a354': '1699082731',
+        'Logger_Bi_Global_User_Id': '6da8d7d7-6395-c0ab-b8ce-9990e6f321f7',
+    }
+
+    with open('爱钱进密码.js', 'r') as js_file:
+        javascript_code = js_file.read()
+
+    # 创建一个 JavaScript 环境
+    ctx = execjs.compile(javascript_code)
+    password = ctx.eval('encodedData')
+
+
+    data = {
+        'name': '18138447743',
+        'password': password,
+        'code':res,
+        'rememberMe': 'on',
+    }
+
+    response = requests.post('https://www.iqianjin.com/user/logon', cookies=cookies, headers=headers, data=data)
+    print(response.text)
+
+
