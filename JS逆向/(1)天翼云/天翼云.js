@@ -47,8 +47,8 @@ function encryptByDES(e) {
               , s = CryptoJS.TripleDES.encrypt(e, d, l);
             return s.toString()
         }
-var pw="yhy2001nb!"
-var account="2671479258@qq.com"
+var pw="123!"
+var account="123123@qq.com"
 password=encryptByDES(pw,account+'00000000000')
 
 
