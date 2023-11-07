@@ -39,7 +39,6 @@ data = {
     'password': password,
     'verifyCode': '',
 }
-
 response2 = session.post(
     'https://login.lvmama.com/nsso/geetest/login/validateNormalLogin.do',
     headers=headers,
